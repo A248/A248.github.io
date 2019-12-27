@@ -1,21 +1,21 @@
-## Repositories
+## Projects
 
-* [UniversalRegistry](https://github.com/A248/) – A common framework for events, resource registrations, and multi-threaded utilities.
+| Project | Category | Description                                                                 | Dependencies |
+|-------------------|-----|------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| [UniversalRegistry](https://github.com/A248/) | `java` | A common framework for events, resource registrations, and multi-threaded utilities.  | n/a |
+| [NeoTime](https://github.com/A248/NeoTime/)           | `java` | A base-ten system of time measurement. It is a superior alternative to the traditional 365-day year.                                                 | n/a |
+| [ArimAPI](https://github.com/A248/ArimAPI)           | `java`/`minecraft` | An efficient, easy-to-use minecraft plugin library and framework.                                                                                    | UniversalRegistry |
+| [ArimBans](https://github.com/A248/ArimBans)          | `java`/`minecraft` | The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation. | ArimAPI, UniversalRegistry |
+| [NPCSk](https://github.com/A248/NPCSk)             | `java`/`minecraft`/`skript` | Solid Skript NPC handling using JitseB's NPCLib and bensku's Skript.                                                                                 | UniversalRegistry |
+| [EulerEstimator](https://github.com/A248/EulerEstimator)    | `java` | Approximates the value of some y given a differential equation relating dy/dx, y, and x using Euler's approximative approach.                        | n/a |
 
-* [NeoTime](https://github.com/A248/NeoTime/) - A base-ten system of time measurement. It is a superior alternative to the traditional 365-day year.
+## Maven Repository
 
-### Minecraft-Specific
+Each project uses this Maven repository.
 
-* [ArimAPI](https://github.com/A248/ArimAPI) – An efficient, easy-to-use minecraft plugin library and framework.
-  * Dependencies: [UniversalRegistry]
-
-* [ArimBans](https://github.com/A248/ArimBans) – The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation.
-  * Dependencies: [UniversalRegistry, ArimAPI]
-
-* [NPCSk](https://github.com/A248/NPCSk) – Solid Skript NPC handling using JitseB's NPCLib and bensku's Skript.
-  * Dependencies: [[Skript](https://github.com/SkriptLang/Skript/), [NPCLib](https://github.com/JitseB/NPCLib)]
-
-## Maven
+* groupId: space.arim
+* artifactId: See a project's homepage.
+* version: See a project's homepage
 
 ``` xml
 <repository>
@@ -37,15 +37,3 @@ The good of man is to be in accordance with reason. Where costs and benefits, th
 ## Licensing
 
 All projects use the GNU GPL v3. The license file is usually located in the base directory of the project as LICENSE.txt and should be copied into binaries.
-
-## Support
-
-Every repository has its own dedicated issue management:
-
-* [UniversalRegistry](https://github.com/A248/issues)
-
-* [ArimAPI](https://github.com/A248/ArimAPI/issues)
-
-* [ArimBans](https://github.com/A248/ArimBans/issues)
-
-* [NPCSk](https://github.com/A248/NPCSk/issues)
