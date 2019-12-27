@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## Repositories
 
-You can use the [editor on GitHub](https://github.com/A248/A248.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+* [UniversalRegistry](https://github.com/A248/) – A common framework for events, resource registrations, and multi-threaded utilities.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* [NeoTime](https://github.com/A248/NeoTime/) - A base-ten system of time measurement. It is a superior alternative to the traditional 365-day year.
 
-### Markdown
+### Minecraft-Specific
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [ArimAPI](https://github.com/A248/ArimAPI) – An efficient, easy-to-use minecraft plugin library and framework.
+  * Dependencies: [UniversalRegistry]
 
-```markdown
-Syntax highlighted code block
+* [ArimBans](https://github.com/A248/ArimBans) – The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation.
+  * Dependencies: [UniversalRegistry, ArimAPI]
 
-# Header 1
-## Header 2
-### Header 3
+* [NPCSk](https://github.com/A248/NPCSk) – Solid Skript NPC handling using JitseB's NPCLib and bensku's Skript.
+  * Dependencies: [[Skript](https://github.com/SkriptLang/Skript/), [NPCLib](https://github.com/JitseB/NPCLib)]
 
-- Bulleted
-- List
+## Maven
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+``` xml
+<repository>
+  <id>arim-repo</id>
+  <url>https://www.arim.space/repo/repository/maven-snapshots/</url>
+</repository>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Justification of Free Software
 
-### Jekyll Themes
+*Put simply, software may be copied at no cost to the developer. It is the logical that it be sold at no price.*
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/A248/A248.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The basic economics of software are as follows:
 
-### Support or Contact
+For any unit of software, there is a fixed initial cost to develop it, but beyond that, the marginal cost of production is zero. Thus software is said to be non-rival in consumption. No matter how many times it is copied or distributed, the cost remains only that which was originally input. The consumers of software, inasmuch as they download and use it, receive some positive benefit. Therefore it is efficient that no price be charged for software, since the net marginal benefit on each unit distributed is positive.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The good of man is to be in accordance with reason. Where costs and benefits, the substance of economics, are concerned, efficiency is most reasonable. Accordingly, it is proper that software be developed, then provided, simply.
+
+## Licensing
+
+All projects use the GNU GPL v3. The license file is usually located in the base directory of the project as LICENSE.txt and should be copied into binaries.
+
+## Support
+
+Every repository has its own dedicated issue management:
+
+* [UniversalRegistry](https://github.com/A248/issues)
+
+* [ArimAPI](https://github.com/A248/ArimAPI/issues)
+
+* [ArimBans](https://github.com/A248/ArimBans/issues)
+
+* [NPCSk](https://github.com/A248/NPCSk/issues)
