@@ -1,3 +1,7 @@
+layout: page
+title: "Javadocs"
+permalink: /javadoc/
+
 ## Javadocs
 
 | Project                                                  | Javadoc                                                  |
