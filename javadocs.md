@@ -1,6 +1,8 @@
+---
+title: Javadocs
 layout: page
-title: "Javadocs"
-permalink: /javadoc/
+permalink: /javadocs/
+---
 
 ## Javadocs
 
