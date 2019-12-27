@@ -1,13 +1,13 @@
 ## Projects
 
-| Project | Category | Description                                                                 | Dependencies |
-|-------------------|-----|------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| [UniversalRegistry](https://github.com/A248/) | `java` | A common framework for events, resource registrations, and multi-threaded utilities.  | n/a |
-| [NeoTime](https://github.com/A248/NeoTime/)           | `java` | A base-ten system of time measurement. It is a superior alternative to the traditional 365-day year.                                                 | n/a |
-| [ArimAPI](https://github.com/A248/ArimAPI)           | `java`/`minecraft` | An efficient, easy-to-use minecraft plugin library and framework.                                                                                    | UniversalRegistry |
-| [ArimBans](https://github.com/A248/ArimBans)          | `java`/`minecraft` | The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation. | ArimAPI, UniversalRegistry |
-| [NPCSk](https://github.com/A248/NPCSk)             | `java`/`minecraft`/`skript` | Solid Skript NPC handling using [NPCLib](https://github.com/JitseB/NPCLib/) and [Skript](https://github.com/SkriptLang/Skript/).                                                                                 | UniversalRegistry, NPCLib, Skript  |
-| [EulerEstimator](https://github.com/A248/EulerEstimator)    | `java` | Approximates the value of some y given a differential equation relating dy/dx, y, and x using Euler's approximative approach.                        | n/a |
+| Name                                                  | Kind   | Category                    | Description                                                                                                                                          | Dependencies                      |
+|----------------------------------------------------------|--------|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| [UniversalRegistry](https://github.com/A248/)            | API    | `java`                      | A common framework for events, resource registrations, and multi-threaded utilities.                                                                 | n/a                               |
+| [NeoTime](https://github.com/A248/NeoTime/)              | API    | `java`                      | A base-ten system of time measurement. It is a superior alternative to the traditional 365-day year.                                                 | n/a                               |
+| [ArimAPI](https://github.com/A248/ArimAPI)               | API    | `java`/`minecraft`          | An efficient, easy-to-use minecraft plugin library and framework.                                                                                    | UniversalRegistry                 |
+| [ArimBans](https://github.com/A248/ArimBans)             | Plugin | `java`/`minecraft`          | The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation. | UniversalRegistry, ArimAPI        |
+| [NPCSk](https://github.com/A248/NPCSk)                   | Plugin | `java`/`minecraft`/`skript` | Solid Skript NPC handling using [NPCLib](https://github.com/JitseB/NPCLib/) and [Skript](https://github.com/SkriptLang/Skript/).                     | UniversalRegistry, NPCLib, Skript |
+| [EulerEstimator](https://github.com/A248/EulerEstimator) | App    | `java`                      | Approximates the value of some y given a differential equation relating dy/dx, y, and x using Euler's approximative approach.                        | n/a                               |
 
 ## Maven Repository
 
