@@ -1,6 +1,4 @@
 ---
-title: Javadocs
-layout: page
 permalink: /javadoc/
 ---
 
