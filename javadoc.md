@@ -15,4 +15,4 @@ permalink: /javadoc/
 | [NPCSk](https://github.com/A248/NPCSk)                   | n/a                                                      |
 | [EulerEstimator](https://github.com/A248/EulerEstimator) | n/a                                                      |
 
-{% include footer.md %}
+[Back to homepage](https://git.arim.space)
