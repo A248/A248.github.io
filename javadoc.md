@@ -1,8 +1,10 @@
 ---
+title: Javadocs
+layout: page
 permalink: /javadoc/
 ---
 
-## Javadocs try 1
+## Javadocs
 
 | Project                                                  | Javadoc                                                  |
 |----------------------------------------------------------|----------------------------------------------------------|
@@ -13,4 +15,4 @@ permalink: /javadoc/
 | [NPCSk](https://github.com/A248/NPCSk)                   | n/a                                                      |
 | [EulerEstimator](https://github.com/A248/EulerEstimator) | n/a                                                      |
 
-[Back to homepage](https://git.arim.space)
+{% include footer.html %}
