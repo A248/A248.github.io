@@ -1,7 +1,7 @@
 ---
 title: Javadocs
 layout: page
-permalink: /javadocs/
+permalink: /javadoc/
 ---
 
 ## Javadocs
