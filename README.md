@@ -11,7 +11,7 @@
 
 ## Maven Repository
 
-All projects use this repository. See a project's homepage for `groupId`, `artifactId`, and `version` values.
+All projects use this repository.
 
 ``` xml
 <repository>
@@ -19,6 +19,8 @@ All projects use this repository. See a project's homepage for `groupId`, `artif
   <url>https://www.arim.space/repo/repository/maven-snapshots/</url>
 </repository>
 ```
+
+See specific projects for `groupId`, `artifactId`, and `version` values. These fields are always found in a project's `pom.xml` if nowhere else.
 
 ## Justification of Free Software
 
