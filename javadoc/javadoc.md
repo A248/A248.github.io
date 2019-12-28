@@ -1,8 +1,10 @@
 ---
+title: Javadocs
+layout: page
 permalink: /javadoc/
 ---
 
-## Javadocs try 1
+## Javadocs Try 2
 
 | Project                                                  | Javadoc                                                  |
 |----------------------------------------------------------|----------------------------------------------------------|
