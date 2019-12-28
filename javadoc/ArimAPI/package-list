@@ -1,1 +1,7 @@
+space.arim.api
 space.arim.api.sql
+space.arim.api.util
+space.arim.api.util.minecraft
+space.arim.api.util.minecraft.bungee
+space.arim.api.util.web
+space.arim.api.uuid
