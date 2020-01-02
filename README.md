@@ -20,7 +20,7 @@ All projects use this repository.
 </repository>
 ```
 
-See specific projects for `groupId`, `artifactId`, and `version` values. These fields are found in a project's `pom.xml`.
+See specific projects for `groupId`, `artifactId`, and `version` values. These fields are always found in a project's `pom.xml`.
 
 ## Justification of Free Software
 
