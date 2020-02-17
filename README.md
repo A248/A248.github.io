@@ -11,7 +11,7 @@
 
 ## Maven Repository
 
-All projects use this repository.
+All projects use this repository. Note that the repo is not guaranteed to have 100% uptime. Accordingly, it is instead recommended to install artifacts manually. See [Installing Jars to a Local Repository](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html).
 
 ``` xml
 <repository>
