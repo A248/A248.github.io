@@ -1,1 +1,11 @@
+space.arim.api.annotation
+space.arim.api.concurrent
+space.arim.api.config
+space.arim.api.server
+space.arim.api.server.bukkit
+space.arim.api.server.bungee
+space.arim.api.server.sponge
+space.arim.api.sql
+space.arim.api.util
+space.arim.api.util.web
 space.arim.api.uuid
