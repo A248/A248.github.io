@@ -3,10 +3,7 @@ space.arim.universal.plugin
 space.arim.universal.registry
 space.arim.universal.util
 space.arim.universal.util.collections
-space.arim.universal.util.exception
-space.arim.universal.util.function
-space.arim.universal.util.function.erring
-space.arim.universal.util.lang
-space.arim.universal.util.logging
-space.arim.universal.util.sql
+space.arim.universal.util.concurrent
+space.arim.universal.util.erringfunction
+space.arim.universal.util.proxy
 space.arim.universal.util.web
