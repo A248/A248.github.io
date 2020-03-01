@@ -7,16 +7,15 @@
 | [ArimAPI](https://github.com/A248/ArimAPI)               | API    | java, minecraft         | An efficient, easy-to-use minecraft plugin library and framework.                                                                                    | [Link](https://git.arim.space/javadoc/ArimAPI)           |
 | [ArimBans](https://github.com/A248/ArimBans)             | Plugin | java, minecraft         | The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation. | [Link](https://git.arim.space/javadoc/ArimBans)          |
 | [NPCSk](https://github.com/A248/NPCSk)                   | Plugin | java, minecraft, skript | Solid Skript NPC handling using [NPCLib](https://github.com/JitseB/NPCLib/) and [Skript](https://github.com/SkriptLang/Skript/).                     | n/a                                                      |
-| [EulerEstimator](https://github.com/A248/EulerEstimator) | App    | java                    | Approximates the value of some y given a differential equation relating dy/dx, y, and x using Euler's approximative approach.                        | n/a                                                      |
 
 ## Maven Repository
 
-All projects use this repository. Note that the repo is not guaranteed to have 100% uptime. Accordingly, it is instead recommended to install artifacts manually. See [Installing Jars to a Local Repository](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html).
+All projects use this repository.
 
 ``` xml
 <repository>
   <id>arim-repo</id>
-  <url>https://www.arim.space/repo/repository/maven-snapshots/</url>
+  <url>https://dl.cloudsmith.io/public/anand-beh/arim-repo/maven/</url>
 </repository>
 ```
 
@@ -30,7 +29,7 @@ The basic economics of software are as follows:
 
 For any unit of software, there is a fixed initial cost to develop it, but beyond that, the marginal cost of production is zero. Thus software is said to be non-rival in consumption. No matter how many times it is copied or distributed, the cost remains only that which was originally input. The consumers of software, inasmuch as they download and use it, receive some positive benefit. Therefore it is efficient that no price be charged for software, since the net marginal benefit on each unit distributed is positive.
 
-The good of man is to be in accordance with reason. Where costs and benefits, the substance of economics, are concerned, efficiency is most reasonable. Accordingly, it is proper that software be developed, then provided, simply.
+The good of man is to be in accordance with reason. With regards to sfotware, the maximisation of net benefit is most reasonable. Accordingly, it is proper that software be developed, then provided, simply.
 
 ## Licensing
 
