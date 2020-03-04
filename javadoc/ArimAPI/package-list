@@ -1,10 +1,12 @@
 space.arim.api.annotation
+space.arim.api.chat
 space.arim.api.concurrent
 space.arim.api.config
-space.arim.api.server
-space.arim.api.server.bukkit
-space.arim.api.server.bungee
-space.arim.api.server.sponge
+space.arim.api.platform
+space.arim.api.platform.bungee
+space.arim.api.platform.spigot
+space.arim.api.platform.sponge
+space.arim.api.plugin
 space.arim.api.sql
 space.arim.api.util
 space.arim.api.util.web
