@@ -4,6 +4,6 @@ space.arim.universal.registry
 space.arim.universal.util
 space.arim.universal.util.collections
 space.arim.universal.util.concurrent
-space.arim.universal.util.erringfunction
+space.arim.universal.util.function
 space.arim.universal.util.proxy
 space.arim.universal.util.web
