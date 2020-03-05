@@ -9,5 +9,6 @@ space.arim.api.platform.sponge
 space.arim.api.plugin
 space.arim.api.sql
 space.arim.api.util
+space.arim.api.util.log
 space.arim.api.util.web
 space.arim.api.uuid
