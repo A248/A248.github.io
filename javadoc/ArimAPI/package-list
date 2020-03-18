@@ -1,16 +1,1 @@
-space.arim.api.annotation
-space.arim.api.chat
-space.arim.api.concurrent
-space.arim.api.config
-space.arim.api.platform
-space.arim.api.platform.bungee
-space.arim.api.platform.spigot
-space.arim.api.platform.sponge
 space.arim.api.plugin
-space.arim.api.sql
-space.arim.api.util
-space.arim.api.util.collect
-space.arim.api.util.collect.helper
-space.arim.api.util.log
-space.arim.api.util.web
-space.arim.api.uuid
