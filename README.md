@@ -1,14 +1,28 @@
+## Introduction
+
+Not much to see here. I program Minecraft-related tidbits, mostly in Java. Everything is open-source, because there's no reason otherwise. It is easier, nowadays, to create an open-source project than a closed-source one.
+
 ## Projects
 
-| Name                                                     | Kind   | Categories                | Description                                                                                                                                          | Javadoc                                                  |
-|----------------------------------------------------------|--------|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| [UniversalRegistry](https://github.com/A248/UniversalRegistry)            | API    | java                    | A common framework for events, resource registrations, and multi-threaded utilities.                                                                 | [Link](https://git.arim.space/javadoc/UniversalRegistry) |
-| [NeoTime](https://github.com/A248/NeoTime/)              | API    | java                    | A base-ten system of time measurement. It is a superior alternative to the traditional 365-day year.                                                 | [Link](https://git.arim.space/javadoc/NeoTime)           |
-| [ArimAPI](https://github.com/A248/ArimAPI)               | API    | java, minecraft         | An efficient, easy-to-use minecraft plugin library and framework.                                                                                    | [Link](https://git.arim.space/javadoc/ArimAPI)           |
-| [ArimBans](https://github.com/A248/ArimBans)             | Plugin | java, minecraft         | The ultimate punitive solution for Spigot servers and BungeeCord networks, seeking to maximise efficiency through near-total asynchronous operation. | [Link](https://git.arim.space/javadoc/ArimBans)          |
-| [NPCSk](https://github.com/A248/NPCSk)                   | Plugin | java, minecraft, skript | Solid Skript NPC handling using [NPCLib](https://github.com/JitseB/NPCLib/) and [Skript](https://github.com/SkriptLang/Skript/).                     | n/a                                                      |
+### [UUIDVault](https://github.com/A248/UUIDVault)
 
-## Maven Repository
+Combines the fragmented UUID/name caches of MC plugins into a simple yet powerful aggregated API. Supports Bukkit, Bungee, Sponge, and Velocity. Requires Java 8+.
+
+### [ArimAPI](https://github.com/Arim-Minecraft/ArimAPI)
+
+Frameworks and utilities useful for nearly any MC plugin. Includes [UniversalRegistry](https://github.com/A248/UniversalRegistry). Requires Java 11+.
+
+### [ArimBans](https://github.com/A248/ArimBans) - In Progress
+
+The ultimate punitive solution for MC servers. Depends on ArimAPI. Supports Bukkit, Bungee, Sponge, and Velocity. Requires slf4j and Java 11+.
+
+### Other
+
+See [my github profile](https://github.com/A248).
+
+## Developer Resources
+
+### Maven Repository
 
 All projects use this repository.
 
@@ -20,6 +34,10 @@ All projects use this repository.
 ```
 
 See specific projects for `groupId`, `artifactId`, and `version` values. These fields are found in a project's `pom.xml`.
+
+### Javadocs
+
+The javadocs are attached to each artifact. Any IDE which recognises maven dependencies and can download attached sources/javadocs is able to fetch such docs.
 
 ## Justification of Free Software
 
