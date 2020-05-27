@@ -24,12 +24,12 @@ See [my github profile](https://github.com/A248).
 
 ### Maven Repository
 
-All projects use this repository.
+All projects are deployed to this repository.
 
 ``` xml
 <repository>
   <id>arim-repo</id>
-  <url>https://dl.cloudsmith.io/public/anand-beh/arim-repo/maven/</url>
+  <url>https://www.arim.space/maven/</url>
 </repository>
 ```
 
