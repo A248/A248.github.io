@@ -8,7 +8,7 @@ Not much to see here. I program Minecraft-related tidbits, mostly in Java. Every
 
 Combines the fragmented UUID/name caches of MC plugins into a simple yet powerful aggregated API. Supports Bukkit, Bungee, Sponge, and Velocity. Requires Java 8+.
 
-### [ArimAPI](https://github.com/Arim-Minecraft/ArimAPI)
+### [ArimAPI](https://github.com/A248/ArimAPI)
 
 Frameworks and utilities useful for nearly any MC plugin. Includes [UniversalRegistry](https://github.com/A248/UniversalRegistry). Requires Java 11+.
 
@@ -47,8 +47,8 @@ The basic economics of software are as follows:
 
 For any unit of software, there is a fixed initial cost to develop it, but beyond that, the marginal cost of production is zero. Thus software is said to be non-rival in consumption. No matter how many times it is copied or distributed, the cost remains only that which was originally input. The consumers of software, inasmuch as they download and use it, receive some positive benefit. Therefore it is efficient that no price be charged for software, since the net marginal benefit on each unit distributed is positive.
 
-The good of man is to be in accordance with reason. With regards to sfotware, the maximisation of net benefit is most reasonable. Accordingly, it is proper that software be developed, then provided, simply.
+The good of man is to be in accordance with reason. With regards to software, the maximisation of net benefit is most reasonable. Accordingly, it is proper that software be developed, then provided, simply.
 
 ## Licensing
 
-All projects use the GNU GPL v3. The license file is usually located in the base directory of the project as LICENSE.txt and should be copied into binaries.
+All projects use the GNU GPL v3 or the GNU Affero GPL v3. The license file is usually located in the base directory of the project as LICENSE.txt and should be copied into binaries.
