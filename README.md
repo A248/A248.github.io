@@ -1,36 +1,38 @@
-## Introduction
 
-Not much to see here. I program Minecraft-related tidbits, mostly in Java. Everything is open-source, because there's no reason otherwise. It is easier, nowadays, to create an open-source project than a closed-source one.
+Hi, my name is Anand Beh and I go by the username 'A248'.
 
 ## Projects
 
+### [JdbCaesar](https://github.com/A248/JdbCaesar)
+
+Conquer the verbosity of plain JDBC. Java 8.
+
+### [Omnibus](https://github.com/A248/Omnibus)
+
+A multitude of critical frameworks and utilities. Java 11.
+
 ### [UUIDVault](https://github.com/A248/UUIDVault)
 
-Combines the fragmented UUID/name caches of MC plugins into a simple yet powerful aggregated API. Supports Bukkit, Bungee, Sponge, and Velocity. Requires Java 8+.
+Minecraft plugin to combine fragmented UUID/name caches into an aggregated API. Supports Bukkit, Bungee, Sponge, and Velocity. Java 8.
 
 ### [ArimAPI](https://github.com/A248/ArimAPI)
 
-Frameworks and utilities useful for nearly any MC plugin. Includes [UniversalRegistry](https://github.com/A248/UniversalRegistry). Requires Java 11+.
+An efficient and powerful library for various needs, especially multi-platform Minecraft plugins. Depends on Omnibus. Requires Java 11.
 
-### [ArimBans](https://github.com/A248/ArimBans) - In Progress
+### [LibertyBans](https://github.com/A248/LibertyBans)
 
-The ultimate punitive solution for MC servers. Depends on ArimAPI. Supports Bukkit, Bungee, Sponge, and Velocity. Requires slf4j and Java 11+.
-
-### Other
-
-See [my github profile](https://github.com/A248).
+The be-all, end-all of discipline. Supports Bukkit, Bungee, Sponge, and Velocity. Depends on multiple libraries but installs them automatically. Java 11.
 
 ## Developer Resources
 
 ### Maven Repository
 
-All projects are deployed to this repository.
+All projects are deployed to one of these repositories, depending on the license:
 
-``` xml
-<repository>
-  <id>arim-repo</id>
-  <url>https://www.arim.space/maven/</url>
-</repository>
+```
+https://mvn-repo.arim.space/lesser-gpl3/
+https://mvn-repo.arim.space/gpl3/
+https://mvn-repo.arim.space/affero-gpl3/
 ```
 
 See specific projects for `groupId`, `artifactId`, and `version` values. These fields are found in a project's `pom.xml`.
@@ -45,10 +47,10 @@ The javadocs are attached to each artifact. Any IDE which recognises maven depen
 
 The basic economics of software are as follows:
 
-For any unit of software, there is a fixed initial cost to develop it, but beyond that, the marginal cost of production is zero. Thus software is said to be non-rival in consumption. No matter how many times it is copied or distributed, the cost remains only that which was originally input. The consumers of software, inasmuch as they download and use it, receive some positive benefit. Therefore it is efficient that no price be charged for software, since the net marginal benefit on each unit distributed is positive.
+For any unit of software, there is a fixed initial cost to develop it, but beyond that, the marginal cost of production is zero. Thus software is said to be non-rival in consumption. Therefore it is right that no price be charged for software, since the net marginal benefit on each unit distributed is always positive, so long as the software is itself a good.
 
-The good of man is to be in accordance with reason. With regards to software, the maximisation of net benefit is most reasonable. Accordingly, it is proper that software be developed, then provided, simply.
+The good of man is to be in accordance with reason. With regards to software, this is realised as described, for all software which is in its own a good.
 
 ## Licensing
 
-All projects use the GNU GPL v3 or the GNU Affero GPL v3. The license file is usually located in the base directory of the project as LICENSE.txt and should be copied into binaries.
+Some projects use the LGPL, some the GPL, some the AGPL. Always see the license file located in the project directory for more information.
