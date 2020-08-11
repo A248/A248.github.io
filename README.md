@@ -5,7 +5,7 @@ Hi, my name is Anand Beh and I go by the username 'A248'.
 
 ### [JdbCaesar](https://github.com/A248/JdbCaesar)
 
-Conquer the verbosity of plain JDBC. Java 8. LGPL v3.
+Conquer the verbosity of plain JDBC. Java 8. Lesser GPL v3.
 
 ### [Omnibus](https://github.com/A248/Omnibus)
 
@@ -13,7 +13,7 @@ A multitude of critical frameworks and utilities. Java 11. GPL v3.
 
 ### [UUIDVault](https://github.com/A248/UUIDVault)
 
-Minecraft plugin to combine fragmented UUID/name caches into an aggregated API. Supports Bukkit, Bungee, Sponge, and Velocity. Java 8. GPL v3.
+Minecraft plugin to combine fragmented UUID/name caches into an aggregated API. Supports Bukkit, Bungee, Sponge, and Velocity. Java 8. Lesser GPL v3.
 
 ### [ArimAPI](https://github.com/A248/ArimAPI)
 
@@ -21,7 +21,7 @@ An efficient and powerful library for various needs, especially multi-platform M
 
 ### [LibertyBans](https://github.com/A248/LibertyBans)
 
-The be-all, end-all of discipline. Supports Bukkit, Bungee, Sponge, and Velocity. Depends on multiple libraries but installs them automatically. Java 11. AGPL v3.
+The be-all, end-all of discipline. Supports Bukkit, Bungee, Sponge, and Velocity. Depends on multiple libraries but installs them automatically. Java 11. Affero GPL v3.
 
 ## Developer Resources
 
