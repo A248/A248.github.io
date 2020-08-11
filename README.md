@@ -27,7 +27,7 @@ The be-all, end-all of discipline. Supports Bukkit, Bungee, Sponge, and Velocity
 
 ### Maven Repository
 
-All projects are deployed to one of these repositories, depending on the license:
+All projects are deployed to one of these repositories, depending on the license. A thanks to Cloudsmith for providing free hosting for OSS.
 
 ```
 https://mvn-repo.arim.space/lesser-gpl3/
